@@ -39,7 +39,7 @@ $(function(){
       var userFname = document.getElementById('name').value;
       
       if(userFname.replace(/\s/g, "").length <= 0){
-        $("#whitespace_error_message_one").html("Please Enter Your Firstname");
+        $("#whitespace_error_message_one").html("Please Enter Your FullName");
         $("#whitespace_error_message_one").show();
         $("#name").css("border-bottom","2px solid #F90A0A");
         whitespace_error = true;
